@@ -23,15 +23,6 @@ public class MenuController {
     private Button dbSwitch;
 
     @FXML
-    private CheckBox checkBox0;
-    @FXML
-    private CheckBox checkBox1;
-    @FXML
-    private CheckBox checkBox2;
-    @FXML
-    private CheckBox checkBox3;
-
-    @FXML
     void initialize() {
         calcSwitch.setOnAction(event -> {
             calcSwitch.getScene().getWindow().hide();
