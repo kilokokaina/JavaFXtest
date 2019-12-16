@@ -1,19 +1,19 @@
-package sample;
+package sample.controllers;
 
-import java.net.URL;
-import java.util.ResourceBundle;
+import java.io.IOException;
+
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 
+import javafx.stage.Stage;
+
 public class Controller {
-
-    @FXML
-    private ResourceBundle resources;
-
-    @FXML
-    private URL location;
 
     @FXML
     private TextArea secondNumText;

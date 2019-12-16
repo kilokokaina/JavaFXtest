@@ -63,7 +63,7 @@ public class HomeController {
                 backMenu.getScene().getWindow().hide();
 
                 FXMLLoader loader = new FXMLLoader();
-                loader.setLocation(getClass().getResource("/sample/view/sample.fxml"));
+                loader.setLocation(getClass().getResource("/sample/view/menu.fxml"));
 
                 try {
                     loader.load();
