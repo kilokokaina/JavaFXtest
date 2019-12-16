@@ -26,11 +26,7 @@ public class MenuController {
     void initialize() {
         calcSwitch.setOnAction(event -> {
             calcSwitch.getScene().getWindow().hide();
-
-            switch () {
-
-            }
-
+            
             FXMLLoader loader = new FXMLLoader();
             loader.setLocation(getClass().getResource("/sample/view/sample.fxml"));
 
